@@ -55,3 +55,10 @@ Hello from Docker!
 This message shows that your installation appears to be working correctly.
 ...
 ...
+
+
+**MULTISTAGE DOCKER BUILD**
+I have executed a dockerfile without multistage then i can able to see the image size as 637 MB
+I have tried with multi stage the image size is 1.96 MB
+It reduced almost 635 mb size 
+so multistage is very useful in reducing image size.
